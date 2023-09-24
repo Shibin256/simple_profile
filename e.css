@@ -1,0 +1,122 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 160px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.05em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+a {
+    color: #0071BB;
+    font-weight: bold;
+}
+
+.wrapper {
+}
+
+.footer {
+    position: absolute;
+    padding-top: 25px;
+    bottom: 0;
+    width: 100%;
+      /* Set the fixed height of the footer here */
+    height: 160px;
+    background-color: #5FC8FF;
+}
+
+.header .glyphicon-wrench {
+    margin: 0 3px;
+}
+
+.header h4 {
+    margin-right: 3px;
+}
+
+.img-responsive {
+    display: block;
+    margin: auto;
+}
+
+.img-responsive.img-big {
+    margin-top: 75px;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > li {
+    width: 150px;
+    margin-right: 2px;
+}
+
+.navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: #92C7E1;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #98CEE5;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #98CEE5;
+}
+
+a.navbar-brand {
+    padding: 5px;
+}
+
+.row {
+}
+
+.alert {
+}
+
+.well {
+}
+
+.footer p {
+    font-weight: bold;
+    color: #FDFDFB;
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 768px) {
+
+    .first-page-content p {
+        margin: 75px auto 25px auto;
+        width: 524px;
+    }
+}
